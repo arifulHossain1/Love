@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f8d9df" />
+  <meta name="description" content="A little love story made for Afnan." />
+  <title>A Little World for you Baby ❤️</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-a" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
+  <div class="paper-noise" aria-hidden="true"></div>
+  <div id="petalField" class="petal-field" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <button id="musicBtn" class="round-btn" type="button" aria-label="Toggle the little melody" title="Music">♪</button>
+    <div class="brand-wrap">
+      <span class="tiny-heart">♡</span>
+      <span class="brand">a little world for you baby</span>
+    </div>
+    <button id="menuBtn" class="round-btn" type="button" aria-label="Open page menu" title="Pages">☰</button>
+  </header>
+
+  <nav id="menu" class="menu" aria-label="Story pages">
+    <p class="menu-title">our tiny chapters</p>
+    <button data-go="0">01 · the cover</button>
+    <button data-go="1">02 · all your versions</button>
+    <button data-go="2">03 · my favorite notification</button>
+    <button data-go="3">04 · sweetie, this is unfair</button>
+    <button data-go="4">05 · things I notice</button>
+    <button data-go="5">06 · the pink-skirt day</button>
+    <button data-go="6">07 · six months of us</button>
+    <button data-go="7">08 · the letter</button>
+    <button data-go="8">09 · one little question</button>
+  </nav>
+
+  <main id="story" class="story" aria-live="polite">
+    <!-- 01 COVER -->
+    <section class="slide active theme-cover" data-slide="0">
+      <div class="slide-shell cover-shell">
+        <div class="cover-photo reveal-up">
+          <img src="assets/Us.jpg" alt="The two of us together by the waterfront" />
+          <span class="photo-sticker sticker-one">my favorite place is next to you ♡</span>
+          <span class="tape t1" aria-hidden="true"></span>
+          <span class="tape t2" aria-hidden="true"></span>
+        </div>
+        <div class="cover-copy reveal-up delay-1">
+          <span class="kicker">made with a ridiculous amount of love</span>
+          <h1>A little world<br><em>made for you.</em></h1>
+          <p class="intro-copy">Not a post. Not a random message. Just a tiny place where I collected some of the versions of you I love, some of the moments I keep replaying, and a few things I probably say too much anyway. 😭❤️</p>
+          <div class="nickname-row" aria-label="Nicknames">
+            <span>baby</span><span>sweetie</span><span>lokkhi baby</span><span>my baby girl</span>
+          </div>
+          <button class="primary next" type="button">Come inside <span>→</span></button>
+        </div>
+        <p class="doodle d1">six months later…<br>still staring ♡</p>
+      </div>
+    </section>
+
+    <!-- 02 VERSIONS -->
+    <section class="slide theme-blush" data-slide="1">
+      <div class="slide-shell">
+        <header class="chapter-heading reveal-up">
+          <span class="chapter-number">02</span>
+          <div>
+            <p class="kicker">same girl, completely different magic every time</p>
+            <h2>All the versions of <em>my baby.</em></h2>
+          </div>
+        </header>
+
+        <div class="portrait-triptych reveal-up delay-1">
+          <button class="flip-photo tilt-a" type="button" data-note="This look is pure elegance. The kind where I pretend to be normal and then keep staring anyway.">
+            <span class="photo-front"><img src="assets/color-blue.webp" alt="Afnan in a blue and pink saree" /></span>
+            <span class="photo-back"><b>Elegant you.</b><small>Tap me again ♡</small></span>
+            <span class="caption">elegant</span>
+          </button>
+          <button class="flip-photo hero-card" type="button" data-note="This one is exactly why I call you adorable. You and that plushie are competing and somehow you are winning.">
+            <span class="photo-front"><img src="assets/color-yellow.webp" alt="Afnan in yellow holding a plush toy" /></span>
+            <span class="photo-back"><b>My little kitty energy. 😭</b><small>too cute, actually unfair</small></span>
+            <span class="caption">adorable</span>
+          </button>
+          <button class="flip-photo tilt-b" type="button" data-note="The soft smile. The blue. The simple look. This is the kind of picture I would randomly open again later for no reason.">
+            <span class="photo-front"><img src="assets/moment-blue.webp" alt="Afnan smiling softly in blue" /></span>
+            <span class="photo-back"><b>Soft you.</b><small>the smile that fixes my mood</small></span>
+            <span class="caption">soft</span>
+          </button>
+        </div>
+        <p class="tap-hint reveal-up delay-2">Tap the pictures. I left something behind each one. ♡</p>
+        <button class="primary next reveal-up delay-2" type="button">Next chapter <span>→</span></button>
+      </div>
+    </section>
+
+    <!-- 03 CALLS -->
+    <section class="slide theme-lilac" data-slide="2">
+      <div class="slide-shell">
+        <header class="chapter-heading reveal-up">
+          <span class="chapter-number">03</span>
+          <div>
+            <p class="kicker">Montreal ↔ Bangladesh, but somehow still us</p>
+            <h2>My favorite <em>notification.</em></h2>
+          </div>
+        </header>
+
+        <div class="call-layout reveal-up delay-1">
+          <div class="phone-wall">
+            <figure class="call-photo phone-one"><img src="assets/call-smile.webp" alt="A smiling video call between us" /></figure>
+            <figure class="call-photo phone-two"><img src="assets/call-desk.webp" alt="A video call from her room" /></figure>
+            <figure class="call-photo phone-three"><img src="assets/call-bed.webp" alt="A cozy sleepy video call" /></figure>
+          </div>
+          <div class="chat-card">
+            <div class="chat-top"><span class="online-dot"></span><b>you</b><small>always worth waiting for</small></div>
+            <div class="bubble mine">Give me a call when you wake up, baby. ❤️</div>
+            <div class="bubble mine">Have a peaceful sleep.</div>
+            <div class="bubble theirs">Lucky to have a partner like you, baby 🥺</div>
+            <div class="bubble mine">I love you in all universe. ♡</div>
+            <p class="call-note">Some days it is ten minutes. Some days it turns into hours. I still wait for that little screen to light up with you.</p>
+          </div>
+        </div>
+        <button class="primary next reveal-up delay-2" type="button">Keep going <span>→</span></button>
+      </div>
+    </section>
+
+    <!-- 04 SAREE -->
+    <section class="slide theme-wine" data-slide="3">
+      <div class="slide-shell">
+        <header class="chapter-heading light-heading reveal-up">
+          <span class="chapter-number">04</span>
+          <div>
+            <p class="kicker">I am filing an official complaint</p>
+            <h2>Sweetie, this is <em>unfair.</em></h2>
+          </div>
+        </header>
+
+        <div class="editorial-grid reveal-up delay-1">
+          <figure class="editorial big"><img src="assets/saree-black.webp" alt="Afnan in a black saree" /><figcaption>quiet elegance</figcaption></figure>
+          <figure class="editorial"><img src="assets/pink-field.webp" alt="Afnan in a deep red saree with the pallu over her head" /><figcaption>the stare-for-too-long one</figcaption></figure>
+          <figure class="editorial"><img src="assets/saree-redheritage.webp" alt="Afnan in a deep red saree in a heritage setting" /><figcaption>straight out of a scene</figcaption></figure>
+        </div>
+        <p class="saree-line reveal-up delay-2">Graceful in one frame, dramatic in the next, and somehow you still expect me to act normal? Absolutely not.</p>
+        <button class="primary light-primary next reveal-up delay-2" type="button">Okay, next 😭 <span>→</span></button>
+      </div>
+    </section>
+
+    <!-- 05 DETAILS -->
+    <section class="slide theme-cream" data-slide="4">
+      <div class="slide-shell">
+        <header class="chapter-heading reveal-up">
+          <span class="chapter-number">05</span>
+          <div>
+            <p class="kicker">apparently my brain keeps receipts</p>
+            <h2>Things I <em>notice.</em></h2>
+          </div>
+        </header>
+
+        <div class="detail-board reveal-up delay-1">
+          <article class="detail-card cinema">
+            <img src="assets/moment-movie.webp" alt="Afnan at the cinema beside a Spider-Man poster" />
+            <div><span>01</span><h3>Movie days</h3><p>You say “let’s watch something,” and I immediately turn it into an event in my head.</p></div>
+          </article>
+          <article class="detail-card hands">
+            <img src="assets/moment-hands.webp" alt="Red alta, bangles and flowers" />
+            <div><span>02</span><h3>Tiny details</h3><p>The bangles, the flowers, the way you style little things. I notice more than I say.</p></div>
+          </article>
+          <article class="detail-card floral">
+            <img src="assets/moment-floral.webp" alt="Afnan in a floral saree" />
+            <div><span>03</span><h3>That soft smile</h3><p>The one where you look calm and I instantly want to ask for the picture.</p></div>
+          </article>
+        </div>
+        <button class="primary next reveal-up delay-2" type="button">There’s more <span>→</span></button>
+      </div>
+    </section>
+
+    <!-- 06 PINK DAY -->
+    <section class="slide theme-pinkday" data-slide="5">
+      <div class="slide-shell">
+        <header class="chapter-heading reveal-up">
+          <span class="chapter-number">06</span>
+          <div>
+            <p class="kicker">yes, this outfit deserved its own chapter</p>
+            <h2>The <em>pink-skirt</em> day.</h2>
+          </div>
+        </header>
+
+        <div class="pink-story reveal-up delay-1">
+          <figure class="pink-main"><img src="assets/pink-tree.webp" alt="Afnan in a white top and pink skirt by a tree" /><figcaption>The “turn around and make me stare again” picture.</figcaption></figure>
+          <div class="pink-side">
+            <figure><img src="assets/pink-running.jpg" alt="Afnan walking across a field in the pink skirt" /><figcaption>walking straight into my wallpaper folder</figcaption></figure>
+            <figure><img src="assets/pink-dog.webp" alt="Afnan sitting beside a sleeping dog in the pink skirt" /><figcaption>the sweetest frame of the day</figcaption></figure>
+          </div>
+        </div>
+        <p class="pink-note reveal-up delay-2">I remember imagining how this outfit would look on you. Seeing the real pictures was better than anything I could have imagined.</p>
+        <button class="primary next reveal-up delay-2" type="button">Six months? <span>→</span></button>
+      </div>
+    </section>
+
+    <!-- 07 SIX MONTHS -->
+    <section class="slide theme-report" data-slide="6">
+      <div class="slide-shell report-shell">
+        <header class="chapter-heading reveal-up">
+          <span class="chapter-number">07</span>
+          <div>
+            <p class="kicker">the very unofficial relationship report</p>
+            <h2>Six months of <em>us.</em></h2>
+          </div>
+        </header>
+
+        <div class="report-grid reveal-up delay-1">
+          <figure class="report-photo"><img src="assets/six-months.webp" alt="Afnan smiling in the pink skirt" /><span>still my favorite menace ♡</span></figure>
+          <div class="report-card">
+            <div class="report-row"><span>“I love you” count</span><b>scientifically uncountable</b></div>
+            <div class="report-row"><span>apologies</span><b>...we are not discussing this 😭</b></div>
+            <div class="report-row"><span>calls</span><b>enough to confuse the distance</b></div>
+            <div class="report-row"><span>patience tested</span><b>professionally, apparently</b></div>
+            <div class="report-row"><span>times I chose you</span><b>every day</b></div>
+            <button id="reportReveal" class="tiny-action" type="button">tap for the actual result</button>
+            <div id="reportSecret" class="report-secret">Result: chaotic, soft, dramatic, funny, sometimes impossible… and still one of the most beautiful parts of my life. ❤️</div>
+          </div>
+        </div>
+        <button class="primary next reveal-up delay-2" type="button">I wrote you something <span>→</span></button>
+      </div>
+    </section>
+
+    <!-- 08 LETTER -->
+    <section class="slide theme-letter" data-slide="7">
+      <div class="slide-shell letter-shell">
+        <header class="chapter-heading reveal-up">
+          <span class="chapter-number">08</span>
+          <div>
+            <p class="kicker">no polished speech. just me.</p>
+            <h2>A letter for <em>my lokkhi baby.</em></h2>
+          </div>
+        </header>
+
+        <div class="letter-stage reveal-up delay-1">
+          <button id="envelope" class="envelope" type="button" aria-expanded="false">
+            <span class="env-back"></span>
+            <span class="env-letter"><b>for you</b><small>tap to open ♡</small></span>
+            <span class="env-flap"></span>
+            <span class="wax">♡</span>
+          </button>
+
+          <article id="letter" class="real-letter" aria-hidden="true">
+            <p>My love,</p>
+
+<p>
+Sometimes I look at you and still wonder how one person became this important to me. You somehow became part of my everyday life without even trying. Now my days feel a little incomplete when I do not hear your voice, see your face, or know how you are doing.
+</p>
+
+<p>
+I love the little things about you the most. Your smile, the way you talk when you are excited, your sleepy face, your random moods, your stubborn moments, and even the times when you annoy me a little. Somehow all of it just feels like you, and I have grown to love that person so much.
+</p>
+
+<p>
+Being far away from you makes me wish for the simplest things. Sitting beside you, holding your hand, going somewhere together, sharing food, or just doing absolutely nothing while you are next to me. I think those ordinary moments with you would mean more to me than anything fancy.
+</p>
+
+<p>
+I do not know what every day ahead of us will look like, but I know I want to keep knowing you, understanding you, making memories with you, and loving you a little better as time goes on.
+</p>
+
+<p>
+You are very special to me my baby girl. More than I probably manage to say properly.
+</p>
+
+<p>
+I love you, sweetie. ❤️
+</p>
+
+<p>
+Yours,<br>
+Ariful
+</p>
+          </article>
+        </div>
+        <button class="primary next reveal-up delay-2" type="button">One last thing <span>→</span></button>
+      </div>
+    </section>
+
+    <!-- 09 FINAL -->
+    <section class="slide theme-final" data-slide="8">
+      <div class="slide-shell final-shell">
+        <div class="final-stars" aria-hidden="true"><i>✦</i><i>♡</i><i>✧</i><i>♡</i><i>✦</i></div>
+        <p class="kicker reveal-up">okay baby, one tiny question</p>
+        <h2 class="final-title reveal-up delay-1">After all the calls, chaos, laughter, little fights, sleepy faces, and all the ordinary days in between…</h2>
+        <p class="final-question reveal-up delay-1">Will you keep choosing <em>us</em> with me? ❤️</p>
+        <div id="answerZone" class="answer-zone reveal-up delay-2">
+          <button id="yesBtn" class="yes-btn" type="button">Yes, sweetie ♡</button>
+          <button id="noBtn" class="no-btn" type="button">No 😶</button>
+        </div>
+        <p id="noHint" class="no-hint reveal-up delay-2">I have a feeling one button is about to misbehave…</p>
+        <p class="final-small reveal-up delay-2">And yes, I know I can be annoying. You are still stuck with a man who loves you a ridiculous amount. 😭❤️</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="story-controls" aria-label="Story navigation">
+    <button id="backBtn" class="control-arrow" type="button" aria-label="Previous page">←</button>
+    <div id="dots" class="dots" aria-hidden="false"></div>
+    <span id="counter" class="counter">1 / 9</span>
+  </footer>
+
+  <div id="celebration" class="celebration" role="dialog" aria-modal="true" aria-labelledby="celebrateTitle" aria-hidden="true">
+    <div class="celebrate-card">
+      <div class="heart-orbit"><span>♡</span></div>
+      <p class="kicker">okay, now I’m smiling like an idiot</p>
+      <h2 id="celebrateTitle">Then it’s still you & me. ❤️</h2>
+      <p>Happy six months, baby girl. I don’t need perfect days. I just want us to keep learning each other, choosing each other, and making ordinary days feel like ours. I love you in all universe my baby girl.</p>
+      <button id="closeCelebrate" class="primary" type="button">Come here, baby ♡</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
